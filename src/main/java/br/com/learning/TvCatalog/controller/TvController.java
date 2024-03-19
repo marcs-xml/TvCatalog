@@ -23,7 +23,7 @@ public class TvController {
         return tvService.createTv(tv);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public Tv updateTv(@RequestBody Tv tv, @PathVariable Long id) throws Exception {
         return tvService.updateTv(tv, id);
     }

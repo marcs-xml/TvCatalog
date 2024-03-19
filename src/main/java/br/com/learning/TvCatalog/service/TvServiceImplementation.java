@@ -60,7 +60,7 @@ public class TvServiceImplementation implements TvService{
         if(tv.getQuality() !=null){
             oldTv.setQuality(tv.getQuality());
         }
-        if(tv.getAmount() !=0.0){
+        if(tv.getAmount() !=0){
             oldTv.setAmount(tv.getAmount());
         }
         if(tv.getPrice() !=0.0){

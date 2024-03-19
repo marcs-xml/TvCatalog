@@ -26,7 +26,7 @@ public class Tv {
     @Column(name = "inches", nullable = false, length = 255)
     private String inches;
     @Column(name = "amount", nullable = false, length = 255)
-    private float amount;
+    private int amount;
     @Column(name = "price", nullable = false, length = 255)
     private float price;
     @Lob
